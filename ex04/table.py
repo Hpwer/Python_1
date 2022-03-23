@@ -1,5 +1,3 @@
-from socket import inet_ntoa
-
 
 a, b, c, d = input().split()
 a=int(a)
