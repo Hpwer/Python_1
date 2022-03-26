@@ -1,6 +1,3 @@
-from socket import inet_ntoa
-
-
 a, b, c, d = input().split()
 a=int(a)
 b=int(b)
@@ -13,9 +10,9 @@ for i in range(c, d + 1):
 print()
 
 for i in range(a, b + 1):
-    print(i, end="\t")
+    print(i, end="")
     for n in range(c, d + 1):
-        print(i * n, end="\t")
+        print("\t",i * n,sep="",end="")
     print()
 
 
