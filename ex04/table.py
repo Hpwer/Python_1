@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 20d2beb66af6ec569374c69499e343d003d49fc4
 a, b, c, d = input().split()
 a=int(a)
 b=int(b)
